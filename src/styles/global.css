@@ -22,11 +22,23 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Moderat";
+  src: url("../../fonts/Moderat-Bold.eot");
+  src: local("Moderat Bold"), local("Moderat-Bold"),
+    url("../../fonts/Moderat-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/Moderat-Bold.woff2") format("woff2"),
+    url("../../fonts/Moderat-Bold.woff") format("woff"),
+    url("../../fonts/Moderat-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 html,
 body {
   color: #fff;
   font-family: "Moderat", sans-serif;
-  letter-spacing: 1.9px;
   margin: 0px;
   padding: 0px;
   height: 100%;

@@ -59,7 +59,6 @@ const useStyles = createUseStyles({
     color: "rgb(225, 225, 225) !important",
     fontFamily: "Gtwalsheimprotrial !important",
     fontSize: "1em !important",
-    letterSpacing: "1.5px",
     lineHeight: "24px !important",
     textAlign: "justify",
     paddingRight: "40px",

@@ -24,7 +24,6 @@ const useStyles = createUseStyles({
     color: "white",
     cursor: "pointer",
     fontSize: "clamp(2rem, 7vw, 5rem)",
-    fontFamily: "Moderat",
     fontWeight: "300",
     display: "block",
     textDecoration: "none",
