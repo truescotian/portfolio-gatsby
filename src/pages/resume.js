@@ -24,6 +24,7 @@ const useStyles = createUseStyles({
     padding: "0px 30px",
     "@media (max-width: 950px)": {
       marginLeft: "0px",
+      padding: "0px 15px",
     },
   },
   companyInfo: {
@@ -36,8 +37,16 @@ const useStyles = createUseStyles({
     flexFlow: "row nowrap",
     justifyContent: "center",
     marginBottom: "0px",
+    paddingLeft: "0px",
+    "@media (max-width: 950px)": {
+      flexFlow: "column",
+    },
     "& li": {
       margin: "0px 15px !important",
+      "@media (max-width: 950px)": {
+        listStyleType: "none",
+        marginLeft: "0px !important",
+      },
     },
     "& :first-child": {
       listStyleType: "none",
